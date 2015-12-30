@@ -1,5 +1,5 @@
 {
-    "name": "okworld26/yii2-flysystem",
+    "name": "creocoder/yii2-flysystem",
     "description": "The flysystem extension for the Yii framework",
     "keywords": [
         "yii2",
@@ -22,12 +22,13 @@
     "authors": [
         {
             "name": "Alexander Kochetov",
-            "email": "okworld26@gmail.com"
+            "email": "creocoder@gmail.com"
         }
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "league/flysystem": "~1.0"
+        "league/flysystem": "~1.0",
+      "aliyuncs/oss-sdk-php": "~2.0"
     },
     "require-dev": {
         "league/flysystem-aws-s3-v2": "~1.0",
@@ -50,7 +51,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "okworld26\\flysystem\\": "src"
+            "creocoder\\flysystem\\": "src"
         }
     }
 }
