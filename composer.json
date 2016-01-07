@@ -28,7 +28,7 @@
     "require": {
         "yiisoft/yii2": "~2.0.0",
         "league/flysystem": "~1.0",
-        "okworld26/aliyun-oss": "1.0"
+        "okworld26/aliyun-oss": "1.1"
     },
     "require-dev": {
         "league/flysystem-aws-s3-v2": "~1.0",
