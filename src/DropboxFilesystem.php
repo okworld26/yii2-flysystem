@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace creocoder\flysystem;
+namespace okworld26\flysystem;
 
 use Dropbox\Client;
 use League\Flysystem\Dropbox\DropboxAdapter;

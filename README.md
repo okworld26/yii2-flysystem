@@ -37,7 +37,7 @@ return [
     'components' => [
         //...
         'fs' => [
-            'class' => 'creocoder\flysystem\LocalFilesystem',
+            'class' => 'okworld26\flysystem\LocalFilesystem',
             'path' => '@webroot/files',
         ],
     ],
@@ -54,7 +54,7 @@ return [
     'components' => [
         //...
         'ftpFs' => [
-            'class' => 'creocoder\flysystem\FtpFilesystem',
+            'class' => 'okworld26\flysystem\FtpFilesystem',
             'host' => 'ftp.example.com',
             // 'port' => 21,
             // 'username' => 'your-username',
@@ -81,7 +81,7 @@ return [
     'components' => [
         //...
         'nullFs' => [
-            'class' => 'creocoder\flysystem\NullFilesystem',
+            'class' => 'okworld26\flysystem\NullFilesystem',
         ],
     ],
 ];
@@ -109,7 +109,7 @@ return [
     'components' => [
         //...
         'awss3Fs' => [
-            'class' => 'creocoder\flysystem\AwsS3Filesystem',
+            'class' => 'okworld26\flysystem\AwsS3Filesystem',
             'key' => 'your-key',
             'secret' => 'your-secret',
             'bucket' => 'your-bucket',
@@ -153,7 +153,7 @@ return [
     'components' => [
         //...
         'azureFs' => [
-            'class' => 'creocoder\flysystem\AzureFilesystem',
+            'class' => 'okworld26\flysystem\AzureFilesystem',
             'accountName' => 'your-account-name',
             'accountKey' => 'your-account-key',
             'container' => 'your-container',
@@ -184,7 +184,7 @@ return [
     'components' => [
         //...
         'copyFs' => [
-            'class' => 'creocoder\flysystem\CopyFilesystem',
+            'class' => 'okworld26\flysystem\CopyFilesystem',
             'consumerKey' => 'your-consumer-key',
             'consumerSecret' => 'your-consumer-secret',
             'accessToken' => 'your-access-token',
@@ -217,7 +217,7 @@ return [
     'components' => [
         //...
         'dropboxFs' => [
-            'class' => 'creocoder\flysystem\DropboxFilesystem',
+            'class' => 'okworld26\flysystem\DropboxFilesystem',
             'token' => 'your-token',
             'app' => 'your-app',
             // 'prefix' => 'your-prefix',
@@ -248,7 +248,7 @@ return [
     'components' => [
         //...
         'gridFs' => [
-            'class' => 'creocoder\flysystem\GridFSFilesystem',
+            'class' => 'okworld26\flysystem\GridFSFilesystem',
             'server' => 'mongodb://localhost:27017',
             'database' => 'your-database',
         ],
@@ -278,7 +278,7 @@ return [
     'components' => [
         //...
         'rackspaceFs' => [
-            'class' => 'creocoder\flysystem\RackspaceFilesystem',
+            'class' => 'okworld26\flysystem\RackspaceFilesystem',
             'endpoint' => 'your-endpoint',
             'region' => 'your-region',
             'username' => 'your-username',
@@ -312,7 +312,7 @@ return [
     'components' => [
         //...
         'sftpFs' => [
-            'class' => 'creocoder\flysystem\SftpFilesystem',
+            'class' => 'okworld26\flysystem\SftpFilesystem',
             'host' => 'sftp.example.com',
             // 'port' => 22,
             'username' => 'your-username',
@@ -349,7 +349,7 @@ return [
     'components' => [
         //...
         'webdavFs' => [
-            'class' => 'creocoder\flysystem\WebDAVFilesystem',
+            'class' => 'okworld26\flysystem\WebDAVFilesystem',
             'baseUri' => 'your-base-uri',
             // 'userName' => 'your-user-name',
             // 'password' => 'your-password',
@@ -384,7 +384,7 @@ return [
     'components' => [
         //...
         'ziparchiveFs' => [
-            'class' => 'creocoder\flysystem\ZipArchiveFilesystem',
+            'class' => 'okworld26\flysystem\ZipArchiveFilesystem',
             'path' => '@webroot/files/archive.zip',
             // 'prefix' => 'your-prefix',
         ],

@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace creocoder\flysystem;
+namespace okworld26\flysystem;
 
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Cached\CachedAdapter;
@@ -104,7 +104,7 @@ abstract class Filesystem extends Component
             $filesystem = Yii::$app->get($this->replica);
 
             if (!$filesystem instanceof Filesystem) {
-                throw new InvalidConfigException('The "replica" property must be an instance of \creocoder\flysystem\Filesystem subclasses.');
+                throw new InvalidConfigException('The "replica" property must be an instance of \okworld26\flysystem\Filesystem subclasses.');
             }
 
             $adapter = new ReplicateAdapter($adapter, $filesystem->getAdapter());
